@@ -27,3 +27,7 @@ A Laravel Livewire application for managing tasks with tags, import/export funct
    ```bash
    git clone https://github.com/umer0010/simple-task-management.git
    cd task-management-systemimplemented in livewire and laravel, basic crud operations and some advance functionality 
+2: Install the node modules using npm install command.
+3: Install the composer using  composer install command.
+
+Once node modules ins installed then use command npm run build and finally run npm run dev, you are redirected to application. 
