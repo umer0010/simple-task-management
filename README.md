@@ -43,5 +43,7 @@ credentails are:
 test@example.com
 password
 
+For jobs: 
+you have to run this command: php  artisan queue:work 
 Once your application is run go to login and enter credentials here, you are login to dashboard.
 
