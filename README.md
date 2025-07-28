@@ -30,6 +30,21 @@ A Laravel Livewire application for managing tasks with tags, import/export funct
 2: Install the node modules using npm install command.
 3: Install the composer using  composer install command.
 
+
+4: Then do this: cp .env.example .env
+5: php artisan key:generate
+
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=stms
+DB_USERNAME=root
+DB_PASSWORD=
+
+
+
+
 Once node modules ins installed then use command npm run build and finally run npm run dev, you are redirected to application. 
 
 Run: 
@@ -47,3 +62,24 @@ For jobs:
 you have to run this command: php  artisan queue:work 
 Once your application is run go to login and enter credentials here, you are login to dashboard.
 
+
+Project Structure:
+app/
+  Livewire/
+    Tasks/          # All task-related components
+  Models/          # Database models
+  Jobs/            # Queue jobs
+database/
+  migrations/      # Database schemas
+  seeders/         # Test data
+resources/
+  views/           # Blade templates
+  js/              # JavaScript files
+routes/
+  web.php          # Application routes
+
+
+1: On dashboard you will be able to create task, you will be able to edit and delete task using modals.
+2: then there is import data button, where you click it and upload the csv file that will render it, you have refresh it to see the results i tried to do this with out page reload , but unable so filters all things need to refresh the page to see the results.
+
+i will provide you the csv file.
