@@ -1,6 +1,6 @@
 # simple-task-management
 
-A Laravel Livewire application for managing tasks with tags, import/export functionality, and real-time updates.
+A Laravel Livewire application for managing tasks with tags, import/export functionality, and real-time updates. I used the laravel breeze and livewire package to implement this functionality. 
 
 ## Features
 
@@ -31,3 +31,17 @@ A Laravel Livewire application for managing tasks with tags, import/export funct
 3: Install the composer using  composer install command.
 
 Once node modules ins installed then use command npm run build and finally run npm run dev, you are redirected to application. 
+
+Run: 
+please create the database with the name: stms
+then run php artisan:migrate command to migrate your database.
+
+then use this command to seed the credentails in db: php artisan db:seed
+
+credentails are: 
+
+test@example.com
+password
+
+Once your application is run go to login and enter credentials here, you are login to dashboard.
+
