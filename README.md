@@ -25,5 +25,5 @@ A Laravel Livewire application for managing tasks with tags, import/export funct
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/umer0010/simple-task-management.git
    cd task-management-systemimplemented in livewire and laravel, basic crud operations and some advance functionality 
