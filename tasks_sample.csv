@@ -1,0 +1,11 @@
+title,description,is_completed,tags
+Complete project,Finish all project tasks,0,"Work,Urgent"
+Meeting,Team sync meeting,1,"Work,Important"
+Research,New technologies research,0,Learning
+Client call,Discuss contract terms,1,"Work,Client"
+Write blog post,Post about Laravel tips,0,"Writing,Laravel"
+Backup database,Weekly DB backup,1,"Maintenance,Important"
+Design mockups,Create UI drafts,0,"Design,Urgent"
+Refactor code,Improve code quality,0,"Development,Cleanup"
+Update dependencies,Run composer and npm updates,1,Maintenance
+Prepare presentation,Deck for quarterly meeting,0,"Work,Important"
